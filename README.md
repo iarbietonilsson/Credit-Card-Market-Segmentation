@@ -7,7 +7,7 @@
 # **Overview :**<a name='Overview'>
 
 ---
-![image]()
+![image](iStock-1137281183.jpg)
 
 [**Image credit**](https://www.istockphoto.com/portfolio/alexialex?mediaty)
 ## **Chosen Dataset : Predicting Credit Card Customer Segmentation** 
