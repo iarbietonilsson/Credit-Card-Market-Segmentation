@@ -7,22 +7,22 @@
 # **Overview :**<a name='Overview'>
 
 ---
-![image](https://drive.google.com/uc?id=1kRUsWwtU1KS6sgNJyHOgLpmphNLr1JS6)
+![image]()
 
 [**Image credit**](https://www.istockphoto.com/portfolio/alexialex?mediaty)
-##**Chosen Dataset : Predicting Credit Card Customer Segmentation** 
+## **Chosen Dataset : Predicting Credit Card Customer Segmentation** 
 
-###**Part 1**
+### **Part 1**
 
 ---
 
 
 
-####**1 Source of data**
+#### **1 Source of data**
 *  [Credit Card Customer Segmentation](https://www.kaggle.com/datasets/thedevastator/predicting-credit-card-customer-attrition-with-m)
    * [The Devastator](https://www.kaggle.com/thedevastator)
 
-####**2 Brief description of data**
+#### **2 Brief description of data**
 
 *This dataset contains a wealth of customer information collected from within a consumer credit card portfolio, with the aim of helping analysts predict customer attrition. It includes comprehensive demographic details such as age, gender, marital status and income category, as well as insight into each customer’s relationship with the credit card provider such as the card type, number of months on book and inactive periods. Additionally it holds key data about customers’ spending behavior drawing closer to their churn decision such as total revolving balance, credit limit, average open to buy rate and analyzable metrics like total amount of change from quarter 4 to quarter 1, average utilization ratio and Naive Bayes classifier attrition flag (Card category is combined with contacts count in 12months period alongside dependent count plus education level & months inactive). Faced with this set of useful predicted data points across multiple variables, capture up-to-date information that can determine long term account stability or an impending departure; therefore, offering us an equipped understanding when seeking to manage a portfolio or serve individual customers.*
 
