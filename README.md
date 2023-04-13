@@ -59,18 +59,41 @@
 ---
 ![image](https://drive.google.com/uc?id=1HPnBfkPdWPI4ypEp8P9fwRtRkHRbe33G)
 
-* #### As Average Utilization Ratio for credit card customers increases toward the maximum Total Revolving Balance, there is more attrition.
-* #### There is a strong positive correlation between Average Utilization Ratio and Total Revolving Balance.
+* ### As Average Utilization Ratio for credit card customers increases toward the maximum Total Revolving Balance, there is more attrition.
+* ### There is a strong positive correlation between Average Utilization Ratio and Total Revolving Balance.
 
 ## **Income Category vs Total Revolving Balance**
 
 ---
 ![image](https://drive.google.com/uc?id=1FlezR3ZSWtjOgZq78qxX3TKoGC_5lysg)
 
+* ### Those with maximum Total Revolving Balance, as well as some with Total Revolving Balance of $0 also leave the credit card company.
+
 ## **Average Amount Available to Buy vs Average Utilization Ratio**
 
 ---
-![image](https://drive.google.com/uc?id=1oTY-lCpYnBNCHc2z44z8l1rN3LZVmmGo)
-* #### Credit card Customers using less credit available have more credit available to purchase, yet choose to exit the credit card company.
-* #### Incentiving those with higher average dollars available to buy could decrease attrition from the credit card company.
-* #### Those with maximum Total Revolving Balance, as well as some with Total Revolving Balance of $0 also leave the credit card company.
+![image](https://drive.google.com/uc?id=1XOhYT0ZKfGNgriU9oiHEfdl-TiQZBFyE)
+* ### Credit card Customers using less credit available have more credit available to purchase, yet choose to exit the credit card company.
+* ### Incentiving those with higher average dollars available to buy could decrease attrition from the credit card company.
+* ### Those with maximum Total Revolving Balance, as well as some with Total Revolving Balance of $0 also leave the credit card company.
+
+## **Final Model Selection**
+
+---
+
+* #### The best model is the default Random Classifier model, *without PCA*.
+* #### The default Random Forest Classifier has an accuracy of 94%, compared to 89% for the Random Forest Classifier with PCA.
+* #### In this case, reducing the dimensionality, less data, did not result in improved performance.
+
+
+![image](https://drive.google.com/uc?id=17Dz_I9aG2qrkJcOmwkvbxE5U-hFUHXg6)
+![image](https://drive.google.com/uc?id=1YmaRoiZyuhYL_pWg8pPtMnKVrcYaZnED)
+
+## **Recommendations for Credit Card Attrition**
+
+---
+
+
+* #### 1 Marketing to those with lower Average Utilization ratio, higher Card class could prevent customers from leaving credit card company.
+* #### 2 Credit card customers that utilize maximum balance as well as those who do not carry a balance are more likely to leave credit card company.
+* #### 3 Those with more Available balance to Buy (better credit, higher incomes) often leave credit card company. Marketing to these income classes could help in retaining more customers.
