@@ -67,33 +67,37 @@
 ---
 ![image](https://drive.google.com/uc?id=1FlezR3ZSWtjOgZq78qxX3TKoGC_5lysg)
 
-* ### Those with maximum Total Revolving Balance, as well as some with Total Revolving Balance of $0 also leave the credit card company.
+* ### Credit card customers with $0 balance tend to exit the credit card company.
+* ### Credit card customers with a range of total revolving balance leave credit card, with slight bubble at maximum Total Revolving Balance.
 
 ## **Average Amount Available to Buy vs Average Utilization Ratio**
 
 ---
 ![image](https://drive.google.com/uc?id=1XOhYT0ZKfGNgriU9oiHEfdl-TiQZBFyE)
+### **Average Open to Buy** : The difference between the credit limit assigned to a cardholder account and the present balance on the account.
 * ### Credit card Customers using less credit available have more credit available to purchase, yet choose to exit the credit card company.
 * ### Incentiving those with higher average dollars available to buy could decrease attrition from the credit card company.
-* ### Those with maximum Total Revolving Balance, as well as some with Total Revolving Balance of $0 also leave the credit card company.
 
 ## **Final Model Selection**
 
 ---
 
-* #### The best model is the default Random Classifier model, *without PCA*.
-* #### The default Random Forest Classifier has an accuracy of 94%, compared to 89% for the Random Forest Classifier with PCA.
-* #### In this case, reducing the dimensionality, less data, did not result in improved performance.
+#### The best model is the SMOTE Random Classifier model, *without PCA*.
+   * #### By optimizing for class imbalance, this improves the Test Recall from 74% to 81%. Recall tells you the False Negatives. In this case, a False Negative is where the model predicts the credit card customer would not leave but the credit card customer actually does leave! We want to minimize False Negatives.
+   * #### Precision score is slightly less, down from 90% down to 83%, but a False Positive is not such a bad thing. This would mean the Model predicted that the customer would leave but customer stayed with the credit card company.
+   
+* #### The SMOTE default Random Forest Classifier has an accuracy of 94%, the same as the prior optimal model. 
 
 
-![image](https://drive.google.com/uc?id=17Dz_I9aG2qrkJcOmwkvbxE5U-hFUHXg6)
-![image](https://drive.google.com/uc?id=1YmaRoiZyuhYL_pWg8pPtMnKVrcYaZnED)
+![image](https://drive.google.com/uc?id=1vSoweC715HpQEgZW1jDDvFAEaAN1ryvZ)
 
-## **Recommendations for Credit Card Attrition**
+![image](https://drive.google.com/uc?id=1SivhfQhPqoiuu-SjKAygIKOBX70jsDNP)
+
+## **Final Recommendations for Credit Card Attrition**
 
 ---
 
 
-* #### 1 Marketing to those with lower Average Utilization ratio, higher Card class could prevent customers from leaving credit card company.
-* #### 2 Credit card customers that utilize maximum balance as well as those who do not carry a balance are more likely to leave credit card company.
-* #### 3 Those with more Available balance to Buy (better credit, higher incomes) often leave credit card company. Marketing to these income classes could help in retaining more customers.
+1. #### Marketing to those with lower Average Utilization ratio, higher Card class could prevent customers from leaving credit card company.
+2. #### Credit card customers that do not carry a balance are more likely to leave credit card company. These customers may have been inactive or have contacted us recently. Sometimes contacting us indicates dissatisfaction. Offering incentives could entice these customers to utilize more credit, resulting in more profit for credit card company.
+3. #### Those with more Available balance to Buy (better credit, higher incomes) often leave credit card company. Marketing to these income classes could help in retaining more customers.
