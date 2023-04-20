@@ -83,8 +83,8 @@
 ---
 
 #### The best model is the SMOTE Random Classifier model, *without PCA*.
-   * #### By optimizing for class imbalance, this improves the Test Recall from 74% to 81%. Recall tells you the False Negatives. In this case, a False Negative is where the model predicts the credit card customer would not leave but the credit card customer actually does leave! We want to minimize False Negatives.
-   * #### Precision score is slightly less, down from 90% down to 83%, but a False Positive is not such a bad thing. This would mean the Model predicted that the customer would leave but customer stayed with the credit card company.
+   * #### By optimizing for class imbalance, this improves the Test Recall from 74% to 79%. Recall tells you the False Negatives. In this case, a False Negative is where the model predicts the credit card customer would not leave but the credit card customer actually does leave! We want to minimize False Negatives.
+   * #### Precision score is slightly less, down from 90% down to 84%, but a False Positive is not such a bad thing. This would mean the Model predicted that the customer would leave but customer stayed with the credit card company.
    
 * #### The SMOTE default Random Forest Classifier has an accuracy of 94%, the same as the prior optimal model. 
 
